@@ -50,6 +50,7 @@ public class AlarmBrodcast extends BroadcastReceiver {
 
         //we have to create notification channel after api level 26
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            
             String channelId = "channel_id";
             NotificationChannel channel = new NotificationChannel(channelId, "channel name", NotificationManager.IMPORTANCE_HIGH);
             channel.enableVibration(true);

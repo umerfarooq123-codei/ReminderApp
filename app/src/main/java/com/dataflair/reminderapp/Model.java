@@ -11,6 +11,7 @@ public class Model {
     public Model(String title, String date, String time) {
         this.title = title;
         this.date = date;
+        
         this.time = time;
     }
 

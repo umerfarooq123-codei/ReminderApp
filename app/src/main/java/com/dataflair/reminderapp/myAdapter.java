@@ -16,6 +16,7 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.myviewholder> {
     public myAdapter(ArrayList<Model> dataholder) {
         this.dataholder = dataholder;
     }
+    
 
     @NonNull
     @Override

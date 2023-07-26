@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+        
         mRecyclerview = (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerview.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         mCreateRem = (FloatingActionButton) findViewById(R.id.create_reminder);                     //Floating action button to change activity

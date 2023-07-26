@@ -12,6 +12,8 @@ public class dbManager extends SQLiteOpenHelper {
     private static String dbname = "reminder";                                                      //Table  name to store reminders in sqllite
 
     public dbManager(@Nullable Context context) {
+
+        
         super(context, dbname, null, 1);
     }
 
